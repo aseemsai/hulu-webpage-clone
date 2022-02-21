@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+h4 {
+  color: #00ed82;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  padding: 20px 32px;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  line-height: 14px;
+  min-width: 135px;
+}
+
+.btn-cta:hover {
+  opacity: 0.8;
+}
+
+.single-underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.double-underline {
+  text-decoration: double underline;
+}
+
+.font-weight-300 {
+  font-weight: 300;
+}
+
+.header {
+  height: 650px;
+  background: url(../img/header.jpg) no-repeat center center/cover;
+}
+.header nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 40px;
+}
+.header nav .login-btn {
+  cursor: pointer;
+  color: #fff;
+  background: none;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+.header .logo {
+  width: 250px;
+  margin: 20px 0;
+}
+.header .header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 80px 0;
+}
+.header .header-content .header-text-bold {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+.header .header-content .header-text-normal {
+  font-size: 20px;
+  margin: 22px 0;
+  text-align: center;
+}
+.header .header-content .legal-text {
+  font-size: 10px;
+  color: #868d9b;
+  opacity: 0.6;
+  margin: 10px 0;
+}
+.header .header-content .legal-text .bundle-terms {
+  color: #868d9b;
+}
+.header .header-content .legal-text .bundle-terms :visited {
+  color: #fff;
+}
+.header .header-content .legal-text .bundle-terms :hover {
+  color: #fff;
+}
+
+/*# sourceMappingURL=index.css.map */

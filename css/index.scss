@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap");
+
+$primary-font: "Rubik", sans-serif;
+$black-color: #000;
+$white-color: #fff;
+$light-gray: #ccc;
+$dark-gray: #333;
+$accent-green: #00ed82;
+$masthead-legal-gray: #868d9b;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: $primary-font;
+  background-color: $black-color;
+  color: $white-color;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+h4 {
+  color: $accent-green;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  background-color: $white-color;
+  color: $dark-gray;
+  cursor: pointer;
+  border: none;
+  padding: 20px 32px;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  line-height: 14px;
+  min-width: 135px;
+}
+
+.btn-cta:hover {
+  opacity: 0.8;
+}
+
+.single-underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.double-underline {
+  text-decoration: double underline;
+}
+
+.font-weight-300 {
+  font-weight: 300;
+}
+
+.header {
+  height: 650px;
+  background: url(../img/header.jpg) no-repeat center center / cover;
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 40px;
+
+    .login-btn {
+      cursor: pointer;
+      color: $white-color;
+      background: none;
+      border: none;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 10px;
+    }
+  }
+
+  .logo {
+    width: 250px;
+    margin: 20px 0;
+  }
+
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 80px 0;
+
+    .header-text-bold {
+      font-weight: bold;
+      font-size: 25px;
+      text-align: center;
+    }
+
+    .header-text-normal {
+      font-size: 20px;
+      margin: 22px 0;
+      text-align: center;
+    }
+
+    .legal-text {
+      font-size: 10px;
+      color: $masthead-legal-gray;
+      opacity: 0.6;
+      margin: 10px 0;
+
+      .bundle-terms {
+        color: $masthead-legal-gray;
+
+        :visited {
+          color: $white-color;
+        }
+
+        :hover {
+          color: $white-color;
+        }
+      }
+    }
+  }
+}
